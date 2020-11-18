@@ -9,7 +9,7 @@ ReactDOM.render()
 ## 元件
 1. 元件副檔名可以是.js也可以是.jsx
 2. 一個React項目，是由許多元件組成
-3. 可用function或class，但如果有state必須用class
+3. 可用function或class，但如果有state必須用class(在hook還沒出現的時候)
 
 ## props屬性
 1. props不可以被修改
@@ -26,3 +26,6 @@ ReactDOM.render()
 
 ## form表單
 1. 一個是input綁監聽，一個是form綁onSubmit
+
+## redux
+用於做狀態管理的套件，用在react中可管理react中多個元件共享的狀態，原本沒有使用redux時會透過一個父元件包含許多子元件，並將state統一在父元件進行操作，redux就是代替父元件管理state，個元件有需要就進行調用
