@@ -27,7 +27,7 @@ ReactDOM.render()
 6. componentWillUnmount:元件卸載前執行
 
 ## form表單
-1. 一個是input綁監聽，一個是form綁onSubmit
+1. 一個是input綁監聽，一個是form綁onSubmit事件
 
 ## redux
 用於做狀態管理的套件，用在react中可管理react中多個元件共享的狀態，原本沒有使用redux時會透過一個父元件包含許多子元件，並將state統一在父元件進行操作，redux就是代替父元件管理state，個元件有需要就進行調用
