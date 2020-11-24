@@ -1,5 +1,7 @@
 # React學習
 
+--router、hook、react-redux
+
 ## JSX
 1. 遇到<>算html，遇到{}算javascript，()如果存在標籤結構且換行
 
@@ -29,3 +31,9 @@ ReactDOM.render()
 
 ## redux
 用於做狀態管理的套件，用在react中可管理react中多個元件共享的狀態，原本沒有使用redux時會透過一個父元件包含許多子元件，並將state統一在父元件進行操作，redux就是代替父元件管理state，個元件有需要就進行調用
+
+## react-router
+
+## TypeScript
+tsconfig.json:typescript的選項設置文件
+tslint.json:程式碼檢查設置
